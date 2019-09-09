@@ -1,0 +1,71 @@
+@import '../../../../pages/common/less.less';
+
+.model_detail_bigDiv{
+   background:#f1f1f1;
+   width:100%;
+   height:auto;
+   overflow: hidden;
+}
+.model_detail_img{
+    width:40px;
+    height:40px;
+    float:left;
+    margin:20px;
+    border-radius:50%;
+    border:1px solid #ccc;
+}
+.model_detail_top{
+    width:calc(~'100% - 80px');
+    height:auto;
+    overflow:hidden;
+    float:left;
+}
+.model_detail_topTitle{
+    width:100%;
+    height:60px;
+}
+.model_detail_title{
+    margin-top:20px;
+    height:40px;
+    line-height:40px;
+    color:#666;
+    font-size:16px;
+    float:left;
+}
+.model_detail_btn{
+    width:120px;
+    float:right;
+    height:60px;
+    margin-top:10px;
+}
+.model_detail_btn ButtonGroup{
+    width:100px;
+    height:28px;
+    line-height:28px;
+}
+
+.model_detail_btn1{
+    width:80px;
+    text-align:center;
+    padding:0 !important;
+}
+.model_detail_btn2{
+    width:20px;
+    text-align:center;
+    background:#7eb4f8;
+    border:1px solid @detail_button_more_operation;
+    color:#fff;
+    &:hover{
+        background:@detail_button_more_operation;
+        border:1px solid @detail_button_more_operation;
+        color:#fff;
+    }
+}
+.model_detail_close{
+    width:20px;
+    float:right;
+    margin-right:20px;
+    margin-left:20px;
+    height:40px;
+    padding-top:18px;
+}

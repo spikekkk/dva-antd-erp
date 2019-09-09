@@ -1,0 +1,47 @@
+.shopListContainer {
+    height: calc(~"100% - 42px");
+    overflow: auto;
+    min-width: 1060px;
+}
+.shopItem {
+    width: 230px;
+    background-color: #999;
+    float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    .shopLogo {
+        width: 230px;
+        height: 190px;
+        background-size: cover;
+        background-color: #eee;
+    }
+}
+.shopDetail {
+    padding: 0 10px;
+    .shopTitle {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+.city {
+    margin-right: 10px;
+}
+.contentLineOne {
+    display: flex;
+    justify-content: left;
+}
+.address {
+    height: 40px;
+    overflow: hidden;
+    white-space: wrap;
+    display: -webkit-box;
+    line-clamp: 2;
+    text-overflow: ellipsis;
+}
+
+.copyBtn {
+    float: right;
+    margin: 0 10px 10px 0;
+}

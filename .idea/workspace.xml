@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40ef8961-781a-4c71-986b-e6741421e198" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/post_service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconfont/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconfont/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconfont/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconfont/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconfont/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/common-layout/CommonLayoutComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/common-layout/CommonLayoutComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/common-layout/SaasBreadcrumb.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/common-layout/SaasBreadcrumb.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/common-modal/CommonModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/common-modal/CommonModal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/common.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/count-down/CountDown.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/count-down/CountDown.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/fields-map/FieldsMapComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/fields-map/FieldsMapComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/less.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/lib.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/NewComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/NewComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/choose-stu-modal/ChooseStuModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/choose-stu-modal/ChooseStuModal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/manager-list/ChooseStuTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/manager-list/ChooseStuTable.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/manager-list/ManagerList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/manager-list/ManagerList.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/manager-list/ManagerListSearch.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/manager-list/ManagerListSearch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/manager-list/ManagerListTable.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/manager-list/ManagerListTable.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/manager-list/SetItems.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/manager-list/SetItems.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/model_detail_top/modelDetailTop.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/model_detail_top/modelDetailTop.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/super-search/SuperSearch.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/super-search/SuperSearch.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/tree-select-courseware/TreeSelectCourseware.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/tree-select-courseware/TreeSelectCourseware.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/tree-select-org-dept/TreeSelectOrgDept.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/tree-select-org-dept/TreeSelectOrgDept.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/tree-select-structure/TreeSelectStructure.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-component/tree-select-structure/TreeSelectStructure.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-tabs/NewTabs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/new-tabs/NewTabs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/not-found/NotFound.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/not-found/NotFound.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/qrcode/QrcodeModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/qrcode/QrcodeModal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/rate-modal/RateModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/rate-modal/RateModal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/rate-modal/imgs-modal/ImgsModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/rate-modal/imgs-modal/ImgsModal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/subordinate-filter/SubordinateFilterComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/subordinate-filter/SubordinateFilterComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/uploadStudent/UploadStudentComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/uploadStudent/UploadStudentComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goods-manage/activity/AddActivityComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goods-manage/activity/AddActivityComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goods-manage/activity/EnrollList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goods-manage/class-manage/AddClassComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goods-manage/class-manage/AddClassComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goods-manage/class-manage/ClassEnroll.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goods-manage/consumer-card/AddConsumerCardComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goods-manage/coupon/AddCouponComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goods-manage/coupon/AddCouponComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goods-manage/coupon/GiveRules.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goods-manage/coupon/GiveRules.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goods-manage/goods/AddGoodsComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goods-manage/ticket/AddTicketComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/goods-manage/ticket/AddTicketComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Home.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index-layout/IndexLayoutComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index-layout/IndexLayoutComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index-layout/ResetPwd.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index-layout/WaitPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index-layout/WaitPage.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/integral/integral-goods/AddIntegralComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login/LoginComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login/LoginComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/marketing/collage/AddCollageGoodsComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/marketing/collage/CollageComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/marketing/collage/CollageComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/mission/mission-map/MissionComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/mission/mission-map/MissionMapComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/mission/mission-map/MissionMapComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/mission/mission-reward/AddRewardComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/order-manage/RefundModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/order-manage/RefundModal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/report/business-report/BusinessSurvey.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/report/business-report/BusinessSurvey.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/report/business-report/BusinessTrend.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/report/business-report/BusinessTrend.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/report/goods-report/GoodsSurvey.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/report/goods-report/GoodsSurvey.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/report/goods-report/GoodsTrend.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/report/goods-report/GoodsTrend.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/report/vip-report/VipSurvey.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/report/vip-report/VipSurvey.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/report/vip-report/VipTrend.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/report/vip-report/VipTrend.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/amusement-park/CascaderAddressOptions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/amusement-park/EditParkComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/amusement-park/EditParkComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/holiday/HolidayDay.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/holiday/HolidayList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/holiday/HolidayListItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/holiday/HolidayMonth.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/holiday/HolidaySet.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/holiday/HolidaySet.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/holiday/HolidayYear.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/mini-program/AddCarouselComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/mini-program/AddCarouselComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/mini-program/AddHotComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/mini-program/ShareSet.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/mini-program/ShareSet.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/role-manage/RoleManage.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/role-manage/RoleManageList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/staff-manage/ResetPassword.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/staff-manage/SelectPark.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/staff-manage/StaffCreateComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/setting/staff-manage/StaffCreateComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sub/FM/AddFMComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sub/FM/AddFMComponent.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sub/animal/AddAnimalComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vip-manage/ChildrenBase.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vip-manage/ChildrenBase.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vip-manage/vip-manage-detail/CheckInfoTab.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vip-manage/vip-manage-detail/DetailHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vip-manage/vip-manage-detail/DetailHeader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vip-manage/vip-manage-detail/IntegralTab.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vip-manage/vip-manage-detail/MissionTab.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vip-manage/vip-manage-detail/OrderInfoTab.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/vip-manage/vip-manage-detail/OrderInfoTab.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entries/index/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entries/index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entries/index/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entries/index/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entries/login/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entries/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entries/login/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entries/login/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/common/rateModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/goods-manage/activityEnroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/goods-manage/activityModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/goods-manage/addActivity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/goods-manage/addClass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/goods-manage/addConsumerCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/goods-manage/addCoupon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/goods-manage/addGoods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/goods-manage/addTicket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/goods-manage/classEnroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/goods-manage/classModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/goods-manage/consumerCardModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/goods-manage/couponModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/goods-manage/goodsModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/goods-manage/ticketModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/home/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/index-layout/indexLayout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/integral/addIntegralGoods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/integral/integralGoods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/loginModel/loginPageModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/marketing/addCollageGoods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/marketing/collage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/marketing/collageNum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/mission/addReward.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/mission/missionList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/mission/missionMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/mission/missionReward.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/order-manage/orderManage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/report/businessReport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/report/goodsReport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/report/vipReport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/setting/addCarousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/setting/addHot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/setting/amusementPark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/setting/editPark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/setting/holidaySet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/setting/miniProgram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/setting/staffCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/setting/staffManage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/sub/FM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/sub/addAnimal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/sub/addFM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/sub/animal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/verification-manage/check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/verification-manage/verification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/vip-manage/childrenInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/vip-manage/vipManage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/vip-manage/vipManageDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/common/common-layout/CommonLayout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/common/fields-map/FieldsMap.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/common/rich-editor/RichEditor.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/common/rich-editor/RichEditor.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/common/subordinate-filter/SubordinateFilter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/common/tenant-org-filter/TenantOrgFilter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/common/tenant-org-filter/TenantOrgFilter.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/common/uploadStudent/UploadStudentPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/goods-manage/activity/Activity.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/goods-manage/activity/AddActivity.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/goods-manage/class/AddClass.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/goods-manage/class/ClassPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/goods-manage/consumer-card/AddConsumerCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/goods-manage/consumer-card/ConsumerCard.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/goods-manage/coupon/AddCoupon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/goods-manage/coupon/Coupon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/goods-manage/goods/AddGoods.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/goods-manage/goods/Goods.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/goods-manage/ticket/AddTicket.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/goods-manage/ticket/Ticket.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/Home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index-layout/IndexLayout.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/integral/integral-goods/AddIntegralGoods.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/integral/integral-goods/IntegralGoods.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/LoginPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/LoginPage.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/marketing/collage/AddCollageGoods.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/marketing/collage/Collage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/mission/mission-list/MissionList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/mission/mission-map/MissionMap.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/mission/mission-reward/AddReward.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/mission/mission-reward/MissionReward.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/order-manage/OrderManage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/report/business-report/BusinessReport.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/report/goods-report/GoodsReport.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/report/vip-report/VipReport.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/setting/amusement-park-setting/AmusementPark.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/setting/amusement-park-setting/EditPark.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/setting/holiday/HolidaySet.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/setting/mini-program/AddCarousel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/setting/mini-program/AddHot.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/setting/mini-program/MiniProgram.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/setting/staff-setting/StaffCreate.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/setting/staff-setting/StaffManage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/setting/staff-setting/StaffManage.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sub/FM/AddFM.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sub/FM/FM.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sub/animal/AddAnimal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/sub/animal/Animal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/verification-manage/check/Check.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/verification-manage/verification/Verification.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/vip-manage/VipManage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/vip-manage/VipManageDetail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/vip-manage/children-info/ChildrenInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/common/rateModalService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/goods-manage/activityService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/goods-manage/classService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/goods-manage/consumerCardService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/goods-manage/couponService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/goods-manage/goodsService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/goods-manage/ticketService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/home/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/index-layout/indexLayoutService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/integral/addIntegralGoodsService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/integral/integralGoodsService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/login/loginService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/marketing/addCollageService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/marketing/collageNumService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/marketing/collageService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/mission/addRewardService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/mission/missionListService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/mission/missionMapService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/mission/missionRewardService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/order-manage/orderManageService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/report/businessReportService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/report/goodsReportService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/report/vipReportService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/setting/addCarouselService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/setting/addHotService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/setting/amusementParkService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/setting/editParkService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/setting/holidaySet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/setting/miniProgramService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/setting/staffCreateService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/setting/staffManageService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/sub/addIntroService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/sub/introduceService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/verification-manage/checkService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/verification-manage/verificationService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/vip-manage/childrenInfoService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/vip-manage/vipDetialService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/vip-manage/vipManageService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/arrayUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/dateFormat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/formatMapData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getKbFirstOrgId.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/lodopPrintUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/mouseRotate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/objectUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/printUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/timeUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/uploadUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validateUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="524" />
+    <option name="y" value="77" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eden-spread-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eden-spread-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.11.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="C:/Program Files/nodejs" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40ef8961-781a-4c71-986b-e6741421e198" name="Default" comment="" />
+      <created>1558595043173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558595043173</updated>
+      <workItem from="1558595045289" duration="653000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="653000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Statistic" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>

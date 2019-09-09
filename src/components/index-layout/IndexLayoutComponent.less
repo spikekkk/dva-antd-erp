@@ -1,0 +1,237 @@
+/*引入less定义的方法*/
+@import "../common/less.less";
+@import "../common/lib.less";
+
+.main_layout {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.main_layout_left_menu {
+    height: inherit;
+    background: @sider-menu-bgcolor;
+    position: relative;
+}
+.main_layout_right_block {
+    height: inherit;
+}
+.main_layout_content {
+    height: 100%;
+    background-color: #fff;
+    overflow: auto;
+    .borderRadius(5px, 5px, 5px, 5px);
+}
+
+/*↓↓↓↓↓↓↓↓↓↓↓↓↓顶部栏↓↓↓↓↓↓↓↓↓↓↓↓↓*/
+
+.header_show_split {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    z-index: 1030;
+    box-shadow: 0 0.1rem 0.6rem 0.07rem rgba(0, 0, 0, 0.2);
+}
+
+.main_layout_header {
+    padding: 0;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: @cas-layout-top-bg-color;
+    line-height: 40px;
+}
+
+.main_layout_header_left {
+    height: 100%;
+    padding: 7px 14px 7px 30px;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.org_logo_img_cont {
+    height: 28px;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+.org_logo_name_cont {
+    color: #353333;
+    font-size: 16px;
+}
+.main_layout_header_right {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 100%;
+}
+
+.main_layout_header_right_item {
+    cursor: pointer;
+    height: 100%;
+    margin-right: 20px;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.main_layout_header_right_item .btn_a_icon {
+    margin-right: 5px;
+}
+
+.main_layout_header_right_item .btn_a_text {
+    height: 100%;
+    line-height: 50px;
+}
+.header_qrcode_cont {
+    font-size: 18px;
+    color: #666;
+    line-height: 70px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.header_qrcode_cont:hover {
+    color: #4e9ff8;
+}
+
+.qrcode_content {
+    width: 200px;
+}
+.btn_a_icon {
+    color: @cas-layout-top-btn-text-color;
+    font-size: 18px !important;
+}
+.login_user_info_img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.main_layout_header_right_item:hover .btn_a_icon {
+    color: @cas-layout-top-btn-text-color-hover;
+}
+
+.btn_a_text {
+    color: @cas-layout-top-btn-text-color;
+    font-size: 14px;
+}
+
+.main_layout_header_right_item:hover .btn_a_text,
+.main_layout_header_right_item:hover .user_text_trigger_icon {
+    color: @cas-layout-top-btn-text-color-hover;
+}
+
+.user_text_trigger {
+    width: 8px;
+    height: 100%;
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 2px;
+    overflow: hidden;
+}
+
+.user_text_trigger_icon {
+    color: @cas-layout-top-btn-text-color;
+    font-size: 12px;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: 12px;
+}
+
+.top_user_drap_menu_text {
+    text-align: center;
+}
+
+//.user_drap_menu {
+//  background-color: @sider-third-menu-item-bgcolor;
+//}
+.user_drap_menu
+    :global(.ant-dropdown-menu-item-active)
+    .top_user_drap_menu_text {
+    color: @shanshan-main-color!important;
+}
+
+.connect_popover :global(.ant-popover-inner-content) {
+    padding: 0;
+}
+
+.connect_popover_cont {
+    width: 200px;
+    border-radius: 5px;
+}
+
+.connect_popover_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.icon_down {
+    color: #353333;
+    font-size: 4px;
+    margin-left: 8px;
+    vertical-align: middle !important;
+    margin-top: -3px;
+}
+
+/*↑↑↑↑↑↑↑↑↑↑↑↑↑顶部栏↑↑↑↑↑↑↑↑↑↑↑↑↑*/
+
+/*↓↓↓↓↓↓↓↓↓↓↓↓↓侧边栏↓↓↓↓↓↓↓↓↓↓↓↓↓*/
+.sider_title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: @sider-menu-system-name-color;
+    font-size: 16px;
+    font-weight: 700;
+}
+.sider_footer {
+    text-align: center;
+    color: #b3c1c8;
+    width: 150px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+.sider_footer p {
+    margin: 0;
+}
+.sider_menu {
+    max-height: calc(~"100% - 100px");
+}
+.sider_menu::-webkit-scrollbar {
+    background-color: transparent !important;
+    border-radius: 4px;
+    width: 0;
+    height: 8px;
+    right: 5px;
+}
+.sider_menu:hover::-webkit-scrollbar {
+    width: 4px;
+}
+.sider_menu::-webkit-scrollbar-thumb {
+    background-color: #505050;
+    border-radius: 4px;
+    /*    -webkit-box-shadow: inset 0 0 3px rgba(255,255,255,1);*/
+}
+.sider_menu::-webkit-scrollbar-track {
+    background-color: #353333;
+    opacity: 0;
+    border-radius: 4px;
+}
+
+/*↑↑↑↑↑↑↑↑↑↑↑↑↑侧边栏↑↑↑↑↑↑↑↑↑↑↑↑↑*/
+
+.order_button{
+    margin-right: 20px;
+}

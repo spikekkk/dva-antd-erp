@@ -1,0 +1,108 @@
+:global {
+    .vertical_center_modal_1 {
+        text-align: center;
+        white-space: nowrap;
+        z-index: 1000 !important;
+    }
+    .vertical_center_modal_1:before {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        width: 0;
+    }
+    .people_num {
+        position: relative;
+        .ant-input-number {
+            width: 50px;
+        }
+    }
+    .goods_children_num {
+        position: absolute;
+        width: 58%;
+        top: 0;
+        left: 200px;
+    }
+    .count_num {
+        position: relative;
+        margin-bottom: 24px;
+    }
+    .count_num_right_goods {
+        position: absolute;
+        top: 0;
+        left: 260px;
+    }
+    .grounding_time .ant-calendar-picker {
+        width: 100%;
+    }
+    .all_input_number {
+        width: 100%;
+    }
+    .last_modal_body {
+        margin-bottom: 10px;
+    }
+    .upload_modal .ant-modal-content {
+        padding: 20px;
+    }
+    .upload_modal .ant-modal-body {
+        padding: 0 !important;
+        text-align: center;
+    }
+    .upload_modal .ant-modal-close-x {
+        color: #ddd;
+        width: 32px !important;
+        height: 32px !important;
+        line-height: 32px !important;
+    }
+    .upload_item {
+        padding-bottom: 20px;
+        .ant-form-explain {
+            position: absolute;
+            bottom: -20px;
+            white-space: nowrap;
+        }
+    }
+    .staff_create_modal .anticon-loading {
+        font-size: 12px;
+    }
+
+    .settle_price_input {
+        width: 120px;
+    }
+
+    .hq_discount_price {
+        margin: 0 10px;
+        font-weight: 900;
+    }
+}
+.orderStock {
+    display: flex;
+    justify-content: space-evenly;
+}
+.refundRange {
+    margin: 10px 0 10px 8px;
+}
+.refundTime {
+    display: inline-block;
+}
+
+.checkBox {
+    display: flex;
+    flex-wrap: wrap;
+    // flex-direction: column;
+    // border: 1px solid #eee;
+    // padding-left: 20px;
+    // width: 200px;
+    // float: left;
+}
+
+.appointInput {
+    width: 120px;
+}
+
+.appointBlock {
+    // float: right;
+
+    display: flex;
+    flex-direction: column;
+}

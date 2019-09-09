@@ -1,0 +1,23 @@
+@import '../../common/common.less';
+
+:global{
+    .vertical_center_modal{
+        text-align: center;
+        white-space: nowrap;
+    }
+    .vertical_center_modal:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+        width: 0;
+    }
+    .staff_create_modal{
+        display: inline-block;
+        vertical-align: middle;
+        top: 0;
+        text-align: left;
+        padding-bottom: 0;
+    }
+    
+}

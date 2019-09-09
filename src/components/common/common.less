@@ -1,0 +1,323 @@
+/*定义less方法*/
+
+/*定义主色调*/
+@saas_main_color: #5d9cec;
+@saas_form_item_width : 280px; /*搜索框表单项宽度*/
+@ghost_button_hover_color: #5d9cec; /*ghost按钮经过颜色*/
+@priamry_button_hover_color: #7bb4fd; /*primary按钮经过颜色*/
+@button_click_color: #4081d4; /*按钮点击颜色*/
+@status_flag_default : #5d9cec; /*状态选项默认色(蓝色)*/
+@status_flag_light_blue : #7eb4f8; /*状态选项淡蓝色*/
+@status_flag_red : #ff7f75; /*状态选项红色*/
+@status_flag_deep_red : #cc4342; /*状态选项深红色*/
+@status_flag_gray : #a9b4bc; /*状态选项灰色*/
+@status_flag_yellow : #fcc047; /*状态选项黄色*/
+@status_flag_green : #67b03b; /*状态选项绿色*/
+@detail_button_more_operation: #7eb4f8; /*详情页编辑右边更多操作按钮颜色*/
+
+/*常用间隔*/
+@input_margin_right : 10px; //搜索按钮间隔
+
+/*漏斗图颜色自下而上*/
+@first_funnel : rgb(228,83,60);
+@first_funnel_two : rgba(228,83,60,.6);
+
+@second_funnel : rgb(239,160,58);
+@second_funnel_two : rgba(239,160,58,.6);
+
+@third_funnel : rgb(234,212,59);
+@third_funnel_two : rgba(234,212,59,.6);
+
+@forth_funnel : rgb(100,194,162);
+@forth_funnel_two : rgba(100,194,162,.6);
+
+@fifth_funnel : rgb(78,176,217);
+@fifth_funnel_two : rgba(78,176,217,.6);
+
+@sixth_funnel : rgb(63,138,232);
+@sixth_funnel_two : rgba(63,138,232,.6);
+
+@seventh_funnel : rgb(130,82,219);
+@seventh_funnel_two : rgba(130,82,219,.6);
+
+/*滚动条*/
+.scrollbar() {
+    &::-webkit-scrollbar {
+        background-color: transparent !important;
+        border-radius: 4px;
+        width: 4px;
+        height: 4px;
+        margin-right: 4px;
+        right: 4px;
+    }
+}
+
+/*不可选中不可复制*/
+.unCheckOrCopy() {
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+/*圆角*/
+.borderRadius(@top_left,@top_right,@bottom_left,@bottom_right) {
+    -webkit-border-top-left-radius: @top_left;
+    -moz-border-top-left-radius: @top_left;
+    -ms-border-top-left-radius: @top_left;
+    -o-border-top-left-radius: @top_left;
+    border-top-left-radius: @top_left;
+    -webkit-border-top-right-radius: @top_right;
+    -moz-border-top-right-radius: @top_right;
+    -ms-border-top-right-radius: @top_right;
+    -o-border-top-right-radius: @top_right;
+    border-top-right-radius: @top_right;
+    -webkit-border-bottom-left-radius: @bottom_left;
+    -moz-border-bottom-left-radius: @bottom_left;
+    -ms-border-bottom-left-radius: @bottom_left;
+    -o-border-bottom-left-radius: @bottom_left;
+    border-bottom-left-radius: @bottom_left;
+    -webkit-border-bottom-right-radius: @bottom_right;
+    -moz-border-bottom-right-radius: @bottom_right;
+    -ms-border-bottom-right-radius: @bottom_right;
+    -o-border-bottom-right-radius: @bottom_right;
+    border-bottom-right-radius: @bottom_right;
+}
+/*渐变*/
+.transition(@data) {
+    -webkit-transition: @data;
+    -moz-transition: @data;
+    -ms-transition: @data;
+    -o-transition: @data;
+    transition: @data;
+}
+
+/*转换*/
+.transform(@data) {
+    -webkit-transform: @data;
+    -moz-transform: @data;
+    -ms-transform: @data;
+    -o-transform: @data;
+    transform: @data;
+}
+/*动画结束后状态*/
+.animationFillMode(@type) {
+    -webkit-animation-fill-mode: @type;
+    -moz-animation-fill-mode: @type;
+    -ms-animation-fill-mode: @type;
+    -o-animation-fill-mode: @type;
+    animation-fill-mode: @type;
+}
+
+/*双色线性渐变*/
+.gradientLinearTwoCol(@deg,@color1,@color2) {
+    background: -webkit-linear-gradient(@deg, @color1, @color2);
+    background: -moz-linear-gradient(@deg, @color1, @color2);
+    background: -ms-linear-gradient(@deg, @color1, @color2);
+    background: -o-linear-gradient(@deg, @color1, @color2);
+    background: linear-gradient(@deg, @color1, @color2);
+}
+
+/*三色线性渐变*/
+.gradientLinearThreeCol(@deg,@color1,@color2,@color3) {
+    background: -webkit-linear-gradient(@deg, @color1, @color2, @color3);
+    background: -moz-linear-gradient(@deg, @color1, @color2, @color3);
+    background: -ms-linear-gradient(@deg, @color1, @color2, @color3);
+    background: -o-linear-gradient(@deg, @color1, @color2, @color3);
+    background: linear-gradient(@deg, @color1, @color2, @color3);
+}
+
+/*自定义线性渐变*/
+.gradientLinearFree(@data) {
+    background: -webkit-linear-gradient(@data);
+    background: -moz-linear-gradient(@data);
+    background: -ms-linear-gradient(@data);
+    background: -o-linear-gradient(@data);
+    background: linear-gradient(@data);
+}
+
+/*文本溢出*/
+.textOverflow(@type) {
+    text-overflow: -webkit- @type;
+    text-overflow: -moz- @type;
+    text-overflow: -ms- @type;
+    text-overflow: -o- @type;
+    text-overflow: @type;
+}
+
+/*box-shadow*/
+.boxShadow(@type) {
+    -webkit-box-shadow: @type;
+    -moz-box-shadow: @type;
+    -ms-box-shadow: @type;
+    -o-box-shadow: @type;
+    box-shadow: @type;
+}
+
+/*flex兼容性*/
+.flexbox() {
+    display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
+    display: -moz-box; /* Firefox 17- */
+    display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+    display: -moz-flex; /* Firefox 18+ */
+    display: -ms-flexbox; /* IE 10 */
+    display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
+}
+
+/*父元素-横向换行 */
+.flexWrap() {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.flex() {
+    display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+    display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+    display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: -moz-box; /* 老版本语法: Firefox (buggy) */
+    display: -ms-flexbox; /* 混合版本语法: IE 10 */
+}
+
+/*flex兼容性*/
+.flexbox() {
+    display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
+    display: -moz-box; /* Firefox 17- */
+    display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+    display: -moz-flex; /* Firefox 18+ */
+    display: -ms-flexbox; /* IE 10 */
+    display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
+}
+/*垂直*/
+.boxCol() {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+/*flex1*/
+.flex1() {
+    -webkit-box-flex: 1; /* OLD - iOS 6-, Safari 3.1-6 */
+    -moz-box-flex: 1; /* OLD - Firefox 19- */
+    -webkit-flex: 1; /* Chrome */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+/*主轴*/
+.flexCenter(@pack) {
+    -webkit-box-pack: @pack;
+    -moz-justify-content: @pack;
+    -webkit-justify-content: @pack;
+    justify-content: @pack;
+}
+/*交叉轴*/
+.itemCenter(@items) {
+    -webkit-box-align: @items;
+    -moz-align-items: @items;
+    -webkit-align-items: @items;
+    align-items: @items;
+}
+
+@defaultcolor : #27AEDF; //'#88c70a';
+@hovercolor : rgba(39,174,223,.8); //#93d50f;
+@activecolor : #27AEDF; //#7ab700;
+
+.commmon_image_param {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.common_ani(@animation_value) {
+    -webkit-animation: @animation_value;
+    -ms-animation: @animation_value;
+    -moz-animation: @animation_value;
+    -o-animation: @animation_value;
+    animation: @animation_value;
+}
+
+.common_logo {
+    //    margin-bottom: 30px;
+    height: 80px;
+    border-radius: 50%;
+    //background: url(https://img.ishanshan.com/gimg/img/f204fd8affff8cdb30b68554143ef4f5) 0% 0% / contain no-repeat;
+}
+
+.common_company {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 26px;
+    color: #666;
+    font-weight: 900;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+.common_company_info {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+
+@keyframes login_box_ani {
+    0% {
+        opacity: 0;
+        transform: scale(1);
+        box-shadow: 7px 7px 20px 2px rgba(0, 0, 0, 0);
+    }
+    70% {
+        opacity: 0.7;
+        transform: scale(1.1);
+        box-shadow: 7px 7px 20px 2px rgba(0, 0, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+        box-shadow: 7px 7px 20px 2px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.comon_code {
+    float: right;
+    margin-right: 15%;
+    height: 32px;
+    width: 90px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 32px;
+    text-align: center;
+}
+
+:global {
+    .getVCCode_f1f1f1 {
+        .comon_code();
+        background-color: #f1f1f1;
+        color: #999;
+    }
+
+    .vertifyBtn {
+        .comon_code();
+        background-color: #5d9cec;
+        color: white;
+    }
+
+    .vertifyBtn:hover {
+        cursor: pointer;
+        background-color: #7cc4fd;
+    }
+
+    .vertifyBtn:active {
+        background-color: #4081d4;
+    }
+
+    .table_qrcode {
+        cursor: pointer;
+        &:hover {
+            color: #27aedf;
+        }
+    }
+}

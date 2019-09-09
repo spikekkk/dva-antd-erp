@@ -1,0 +1,121 @@
+/*引入less定义的方法*/
+@import '../../common/common.less';
+
+.all{
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow:auto;
+    height:calc(~'100% - 30px')
+}
+.left_area{
+    width: 300px;
+    min-width: 300px;
+    margin-right: 10px;
+}
+.right_area{
+    width:400px;
+    min-width: 400px;
+    padding-right: 20px;
+}
+.block_title{
+    height:40px;
+    width:100%;
+    line-height: 39px;
+    background-color: #F1F1F1;
+    color:#666;
+    font-size: 1.16rem;
+    padding:0 20px;
+    .borderRadius(5px,5px,0,0);
+    border: 1px solid #ddd;
+    border-bottom-width: 0;
+}
+.roleNameCheck{
+    height:40px;
+    line-height:40px;
+    cursor:pointer;
+    color:#666;
+    padding-left: 14px;
+    padding-right: 10px;
+    -webkit-transition: all 0.5s;
+       -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+         -o-transition: all 0.5s;
+            transition: all 0.5s;
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    .unCheckOrCopy();
+    cursor: pointer !important;
+    background-color: #F1FBFF;
+    &:hover{
+        background-color: #F1FBFF;
+    }
+}
+.content{
+    width:100%;
+    height:510px;
+    overflow:auto;
+    border:1px solid #ddd;
+    padding:10px 0;
+    margin-bottom: 20px;
+    overflow: auto;
+    .borderRadius(0,0,5px,5px);
+    .scrollbar();
+}
+.contentRight{
+    width:100%;
+    height:510px;
+    overflow:auto;
+    border:1px solid #ddd;
+    padding:10px 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+    .borderRadius(0,0,5px,5px);
+    .scrollbar();
+}
+
+.roleNameUnCheck{
+    height:40px;
+    line-height:40px;
+    cursor:pointer;
+    padding-left: 14px;
+    padding-right: 10px;
+    -webkit-transition: all 0.5s;
+       -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+         -o-transition: all 0.5s;
+            transition: all 0.5s;
+    font-size: 14px;
+    .unCheckOrCopy();
+    cursor: pointer !important;
+    &:hover{
+        background-color: #F1FBFF;
+    }
+}
+.showRoleFunction{
+    color:#666;
+    margin-left: 4px;
+}
+
+.roleFunctionTree{
+    height:700px;
+    width:100%;
+    float:left;
+    .unCheckOrCopy();
+}
+.createNewRole{
+    height: 40px;
+    border-bottom: 1px solid #f8f8f8;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+.copy_or_rename{
+    float : right;
+    margin-left : 10px;
+    font-size : 12px;
+}

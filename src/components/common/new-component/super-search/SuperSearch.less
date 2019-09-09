@@ -1,0 +1,101 @@
+@import '../../../../pages/common/less.less';
+:global{
+	.super_search_box{
+		position : fixed;
+		right : 0;
+		top : 168px;
+		bottom : 0;
+		width : 320px;
+		background : #f1f1f1;
+		border-left : 1px solid #ddd;
+		box-shadow : -5px 0 5px rgba( 0,0,0, .1 );
+		z-index : 10000;
+		transform : translateX( 320px );
+		.transition( transform ease-in-out .5s );
+	}
+	.super_search_box_open{
+		transform : translateX( 0 );
+		z-index : 10000;
+	}
+	.super_search_wrap{
+		height : calc( ~'100% - 54px' );
+	}
+	.super_search_content{
+		padding : 20px;
+		max-height : calc( ~'100% - 70px' );
+		overflow-x : hidden;
+		overflow-y : auto;
+	}
+	.super_search_content::-webkit-scrollbar {
+		background-color: transparent!important;
+		border-radius: 5px;
+		width: 4px;
+		height: 4px;
+		margin-right: 5px;
+		right: 5px;
+	}
+	/*label样式覆盖*/
+	.super_search_content .ant-form-item-label{
+		margin-bottom : 10px;
+		height : 12px;
+		line-height : 12px;
+		text-align : left;
+	}
+	.super_search_content .ant-form-item-label label{
+		color : #666;
+	}
+
+	/*按钮样式开始*/
+	.super_search_footer{
+		padding : 20px 0 20px 20px;
+	}
+	/*按钮样式结束*/
+	.super_search_footer .ant-btn{
+		padding : 0;
+		width : 80px;
+		height : 28px;
+		line-height : 28px;
+		font-size : 14px;
+		text-align : center;
+	}
+
+	.super_search_footer .ant-btn span{
+		position : relative;
+		top : -1px;
+	}
+}
+
+/*头部样式开始*/
+.super_search_header{
+	position : relative;
+	width : 320px;
+	height : 54px;
+	background : @saas_main_color;
+}
+.header_text{
+	width  : 100%;
+	height : 100%;
+	line-height  : 54px;
+	padding-left : 20px;
+	font-size : 14px;
+	color : #ffffff;
+}
+.header_colse{
+	position : absolute;
+	top : 18px;
+	right : 20px;
+	color : #ffffff !important;
+	height : 16px;
+	cursor : pointer;
+//	.transition( transform .3s linear );
+}
+//.header_colse:hover{
+//	transform : rotate( 180deg );
+//}
+/*头部样式结束*/
+
+/*按钮样式开始*/
+.footer_cancel{
+	margin-left : 20px;
+}
+/*按钮样式结束*/

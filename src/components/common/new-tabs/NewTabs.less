@@ -1,0 +1,54 @@
+@import '../common.less';
+
+.new_tab_bar{
+    height: 28px;
+    background: #EBECF0;
+//    .flex();
+    overflow: hidden;
+}
+.new_tab_item{
+    float: left;
+    cursor: pointer;
+    line-height: 28px;
+    display: block;
+    min-width: 70px;
+    padding-left: 14px;
+    border-right: 1px solid #ddd;
+    color: #999;
+    &:hover{
+        background: #DFDFE5;
+        color: #666;
+    }
+}
+.new_tab_item_active{
+    background: #DFDFE5;
+    color: #666;
+}
+.more_tab{
+    position:absolute;
+    cursor: pointer;
+    z-index: 999;
+    line-height: 28px !important;
+    right: 5px;
+    font-size: 12px;
+    &:hover{
+        color: #27AEDF;
+    }
+}
+.tab_list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 550px;
+    overflow: auto;
+}
+.tab_item{
+    height: 28px;
+    line-height: 28px;
+}
+
+:global{
+    .tab_list_pop .ant-popover-inner-content{
+        padding: 10px 2px 10px 10px !important;
+    }
+}

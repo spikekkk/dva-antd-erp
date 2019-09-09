@@ -1,0 +1,580 @@
+@import "../less.less";
+
+:global {
+    .common_detail .ant-tabs-mini .ant-tabs-tab {
+        padding: 13px 20px;
+    }
+    .common_detail .ant-tabs-ink-bar {
+        height: 4px;
+        background-color: #5d9cec;
+    }
+    .common_detail .ant-tabs-mini .ant-tabs-nav-container {
+        background-color: #f5f6f8;
+    }
+    .common_detail .ant-tabs-nav .ant-tabs-tab {
+        color: #666;
+        font-size: 14px;
+        margin: 0;
+    }
+    .common_detail .ant-tabs-nav .ant-tabs-tab-active {
+        color: #27aedf;
+    }
+    .common_detail .ant-tabs-nav .ant-tabs-tab:hover {
+        color: #27aedf;
+    }
+    .common_detail .ant-tabs-bar {
+        margin-bottom: 0;
+    }
+    .common_detail .ant-tabs-tab-next,
+    .ant-tabs-tab-prev {
+        margin: 0;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .common_detail .ant-btn-group .ant-btn {
+        &:hover,
+        &:focus {
+            border-color: #d9d9d9;
+        }
+    }
+    .common_detail .anticon-close {
+        .transition(all 0.5s ease-in-out 0s);
+    }
+    .common_detail .ant-tabs-nav-wrap {
+        background: #fff;
+    }
+    .common_detail .ant-tabs:not(.ant-tabs-vertical) > .ant-tabs-content {
+        padding: 0;
+    }
+
+    /*公共提示框*/
+    .common_alert_Modal {
+        .ant-modal-body {
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 1.16rem;
+            color: #666;
+        }
+        .ant-modal-footer {
+            text-align: center;
+            margin: 0;
+            padding: 0 10px 20px 10px;
+        }
+    }
+    .common_gradient_block {
+        width: 100px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 1.16rem;
+        font-weight: 600;
+        color: #000;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/*右边划入框*/
+.all_page_right_enter_modal_open {
+    background-color: #fff;
+    position: fixed;
+    border: 1px solid #ddd;
+    right: 0;
+    z-index: 999;
+    .boxShadow(-2px 0px 4px 0px rgba(0, 0, 0, 0.24));
+    .transform(translate(0));
+    //    .borderRadius(5px,5px,5px,5px);
+    .transition(all 0.5s ease-in-out 0s);
+}
+.all_page_right_enter_modal_close {
+    background-color: #fff;
+    position: fixed;
+    border: 1px solid #ddd;
+    right: 0;
+    z-index: 999;
+    .transform(translate(100%));
+    .borderRadius(5px, 5px, 5px, 5px);
+    .transition(all 0.5s ease-in-out 0s);
+}
+.page_right_enter_modal_header {
+    overflow: hidden;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: @saas_main_color;
+    .borderRadius(5px, 5px, 0, 0);
+}
+.page_right_enter_modal_header_title {
+    height: 100%;
+    line-height: 50px;
+    float: left;
+}
+.page_right_enter_modal_header_close {
+    line-height: 50px;
+    float: right;
+}
+.page_right_enter_modal_header_close_x {
+    cursor: pointer;
+    color: #ddd;
+    .transition(all 0.3s linear 0s);
+    &:hover {
+        color: #fff;
+        .transform(rotate(180deg));
+    }
+}
+
+.page_right_enter_modal_content {
+    //    padding:16px;
+    overflow: hidden;
+}
+.page_right_enter_modal_footer {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 16px;
+    border-top: 1px solid #ddd;
+}
+.page_right_enter_modal_footer_content {
+    float: right;
+}
+
+/*状态标志项*/
+.status_flag {
+    padding: 3px 5px;
+    color: #666;
+    line-height: 12px;
+    font-size: 12px;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.status_flag_point {
+    width: 7px;
+    height: 7px;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+
+/*新按钮*/
+.new_button_ghost {
+    height: 28px;
+    padding: 7px 26px;
+    font-size: 14px;
+    color: #666;
+    line-height: 12px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    display: inline-block;
+    .borderRadius(5px, 5px, 5px, 5px);
+    .transition(all 0.3s);
+    .unCheckOrCopy();
+    &:hover {
+        color: @ghost_button_hover_color;
+        border: 1px solid @ghost_button_hover_color;
+    }
+    &:active {
+        color: @button_click_color;
+        border: 1px solid @button_click_color;
+    }
+    i {
+        margin-right: 4px;
+    }
+}
+.new_button_primary {
+    height: 28px;
+    width: auto;
+    padding: 7px 26px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 14px;
+    background-color: @saas_main_color;
+    cursor: pointer;
+    display: inline-block;
+    .borderRadius(5px, 5px, 5px, 5px);
+    .transition(all 0.3s);
+    .unCheckOrCopy();
+    &:hover {
+        background-color: @priamry_button_hover_color;
+    }
+    &:active {
+        background-color: @button_click_color;
+    }
+    i {
+        margin-right: 4px;
+    }
+}
+
+/*无数据页面*/
+.null_data {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    > img {
+        margin-bottom: 5px;
+        width: 58px;
+    }
+    > div {
+        cursor: default;
+        fontsize: 1rem;
+        color: #999;
+    }
+}
+
+/*进度条*/
+/*进度条*/
+:global {
+    .zj_common_progress_bar_modal {
+        margin: 15% auto;
+    }
+    .zj_common_progress_bar_modal .ant-modal-content {
+        background-color: transparent;
+        background-color: #fff;
+        box-shadow: 0 0 5px #fff, 0 0 5px #5d9cec;
+        border-radius: 50px !important;
+    }
+    .zj_common_progress_bar_modal .ant-modal-header {
+        display: none;
+    }
+}
+.progress_move {
+    height: 20px;
+    width: 0;
+    border-radius: 10px;
+    position: relative;
+    background-image: repeating-linear-gradient(
+        -45deg,
+        rgb(93, 156, 236),
+        rgb(93, 156, 236) 20px,
+        rgba(93, 156, 236, 0.7) 20px,
+        rgba(93, 156, 236, 0.7) 40px
+    );
+    background-size: 400px 100%;
+    box-shadow: 0px 0px 10px 1px rgb(93, 156, 236), 0 0 1px rgb(93, 156, 236),
+        0 0 1px rgb(93, 156, 236), 0 0 1px rgb(93, 156, 236),
+        0 0 1px rgb(93, 156, 236), 0 0 1px rgb(93, 156, 236),
+        0 0 1px rgb(93, 156, 236);
+    animation: progress_move 4s linear infinite;
+    @keyframes progress_move {
+        from {
+            width: 0;
+            background-position: 400px 0%;
+        }
+        to {
+            width: 100%;
+            background-position: 0% 0%;
+        }
+    }
+    @-o-keyframes progress_move {
+        from {
+            width: 0;
+            background-position: 400px 0%;
+        }
+        to {
+            width: 100%;
+            background-position: 0% 0%;
+        }
+    }
+    @-ms-keyframes progress_move {
+        from {
+            width: 0;
+            background-position: 400px 0%;
+        }
+        to {
+            width: 100%;
+            background-position: 0% 0%;
+        }
+    }
+    @-moz-keyframes progress_move {
+        from {
+            width: 0;
+            background-position: 400px 0%;
+        }
+        to {
+            width: 100%;
+            background-position: 0% 0%;
+        }
+    }
+    @-webkit-keyframes progress_move {
+        from {
+            width: 0;
+            background-position: 400px 0%;
+        }
+        to {
+            width: 100%;
+            background-position: 0% 0%;
+        }
+    }
+}
+.progress_fixed {
+    height: 20px;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    background-image: repeating-linear-gradient(
+        -45deg,
+        rgb(93, 156, 236),
+        rgb(93, 156, 236) 20px,
+        rgba(93, 156, 236, 0.7) 20px,
+        rgba(93, 156, 236, 0.7) 40px
+    );
+    background-size: 400px 100%;
+    box-shadow: 0px 0px 5px 1px rgb(93, 156, 236), 0 0 1px rgb(93, 156, 236),
+        0 0 1px rgb(93, 156, 236), 0 0 1px rgb(93, 156, 236),
+        0 0 1px rgb(93, 156, 236), 0 0 1px rgb(93, 156, 236),
+        0 0 1px rgb(93, 156, 236);
+    animation: progress_fixed 4s linear infinite;
+    @keyframes progress_fixed {
+        from {
+            background-position: 0% 0%;
+        }
+        to {
+            background-position: 400px 0%;
+        }
+    }
+    @-o-keyframes progress_fixed {
+        from {
+            background-position: 0% 0%;
+        }
+        to {
+            background-position: 400px 0%;
+        }
+    }
+    @-ms-keyframes progress_fixed {
+        from {
+            background-position: 0% 0%;
+        }
+        to {
+            background-position: 400px 0%;
+        }
+    }
+    @-moz-keyframes progress_fixed {
+        from {
+            background-position: 0% 0%;
+        }
+        to {
+            background-position: 400px 0%;
+        }
+    }
+    @-webkit-keyframes progress_fixed {
+        from {
+            background-position: 0% 0%;
+        }
+        to {
+            background-position: 400px 0%;
+        }
+    }
+    &:before {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 1rem;
+        font-style: italic;
+        opacity: 1;
+        color: #fff;
+        height: 20px;
+        line-height: 20px;
+        padding-right: 10px;
+    }
+}
+
+/*进度条*/
+:global {
+    .zj_common_progress_bar {
+        width: 100%;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.progress_move {
+    height: 20px;
+    width: 0;
+    border-radius: 10px;
+    position: relative;
+    background-image: repeating-linear-gradient(
+        -45deg,
+        rgb(39, 174, 223),
+        rgb(39, 174, 223) 20px,
+        rgba(39, 174, 223, 0.7) 20px,
+        rgba(39, 174, 223, 0.7) 40px
+    );
+    background-size: 400px 100%;
+    box-shadow: 0px 0px 5px 1px rgb(39, 174, 223), 0 0 1px rgb(39, 174, 223),
+        0 0 1px rgb(39, 174, 223), 0 0 1px rgb(39, 174, 223),
+        0 0 1px rgb(39, 174, 223), 0 0 1px rgb(39, 174, 223),
+        0 0 1px rgb(39, 174, 223);
+    animation: progress_move 4s linear infinite;
+    @keyframes progress_move {
+        from {
+            width: 0;
+            background-position: 400px 0%;
+        }
+        to {
+            width: 100%;
+            background-position: 0% 0%;
+        }
+    }
+    @-o-keyframes progress_move {
+        from {
+            width: 0;
+            background-position: 400px 0%;
+        }
+        to {
+            width: 100%;
+            background-position: 0% 0%;
+        }
+    }
+    @-ms-keyframes progress_move {
+        from {
+            width: 0;
+            background-position: 400px 0%;
+        }
+        to {
+            width: 100%;
+            background-position: 0% 0%;
+        }
+    }
+    @-moz-keyframes progress_move {
+        from {
+            width: 0;
+            background-position: 400px 0%;
+        }
+        to {
+            width: 100%;
+            background-position: 0% 0%;
+        }
+    }
+    @-webkit-keyframes progress_move {
+        from {
+            width: 0;
+            background-position: 400px 0%;
+        }
+        to {
+            width: 100%;
+            background-position: 0% 0%;
+        }
+    }
+}
+.progress_fixed {
+    height: 20px;
+    width: 400px;
+    border-radius: 10px;
+    position: relative;
+    background-image: repeating-linear-gradient(
+        -45deg,
+        rgb(39, 174, 223),
+        rgb(39, 174, 223) 20px,
+        rgba(39, 174, 223, 0.7) 20px,
+        rgba(39, 174, 223, 0.7) 40px
+    );
+    background-size: 400px 100%;
+    box-shadow: 0px 0px 5px 1px rgb(39, 174, 223), 0 0 1px rgb(39, 174, 223),
+        0 0 1px rgb(39, 174, 223), 0 0 1px rgb(39, 174, 223),
+        0 0 1px rgb(39, 174, 223), 0 0 1px rgb(39, 174, 223),
+        0 0 1px rgb(39, 174, 223);
+    animation: progress_fixed 5s linear infinite;
+    @keyframes progress_fixed {
+        from {
+            background-position: 0% 0%;
+        }
+        to {
+            background-position: 400px 0%;
+        }
+    }
+    @-o-keyframes progress_fixed {
+        from {
+            background-position: 0% 0%;
+        }
+        to {
+            background-position: 400px 0%;
+        }
+    }
+    @-ms-keyframes progress_fixed {
+        from {
+            background-position: 0% 0%;
+        }
+        to {
+            background-position: 400px 0%;
+        }
+    }
+    @-moz-keyframes progress_fixed {
+        from {
+            background-position: 0% 0%;
+        }
+        to {
+            background-position: 400px 0%;
+        }
+    }
+    @-webkit-keyframes progress_fixed {
+        from {
+            background-position: 0% 0%;
+        }
+        to {
+            background-position: 400px 0%;
+        }
+    }
+    &:before {
+        content: attr(data-content);
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 1rem;
+        font-style: italic;
+        opacity: 1;
+        color: #fff;
+        height: 20px;
+        line-height: 20px;
+        padding-right: 10px;
+    }
+}
+
+/*BlockTitle*/
+:global {
+    .common_block_title {
+        overflow: hidden;
+        height: 26px;
+        margin-bottom: 12px;
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 1.16rem;
+        i {
+            background-color: #27aedf;
+            color: #fff;
+            font-size: 1.6rem;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    }
+}
+.title_block {
+    height: 14px;
+    width: 6px;
+    background-color: #27aedf;
+    margin-right: 6px;
+}
+.title_content {
+    height: 100%;
+    line-height: 26px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: #666;
+}

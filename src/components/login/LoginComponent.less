@@ -1,0 +1,137 @@
+@basename : saas_login;
+@import "../common/common.less";
+
+:global {
+    .@{basename} {
+        // position: fixed;
+
+        .ant-input {
+            background-color: #f1f1f1;
+        }
+
+        .ant-input-group-addon:first-child {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border: 0px transparent;
+        }
+        .ant-input-group-addon {
+            background-color: #eee;
+        }
+    }
+
+    .saas_login {
+        position: relative;
+    }
+}
+
+.saas_login_box {
+    overflow: hidden;
+    height: 344px;
+    padding-top: 20px;
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: none;
+    text-align: center;
+}
+
+.common_input {
+    width: 66%;
+    margin: auto;
+}
+
+.saas_login_input_user {
+    .common_input();
+    margin-top: 30px;
+    > span {
+        width: 100%;
+    }
+}
+
+.saas_login_input_pasword {
+    .common_input();
+    margin-top: 20px;
+    > span {
+        width: 100%;
+    }
+}
+
+.saas_login {
+    .common_input();
+    background-color: rgba(39, 174, 223, 0.8);
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.saas_registered_forgot {
+    .common_input();
+    margin-top: 20px;
+}
+
+.common_text(@f) {
+    color: #999;
+    font-size: 14px;
+    float: @f;
+}
+
+.saas_registered {
+    .common_text(left);
+}
+
+.saas_forgot_password {
+    .common_text(right);
+}
+
+.saas_login:hover {
+    cursor: pointer;
+    background-color: #27aedf;
+}
+
+.saas_login:active {
+    cursor: pointer;
+    background-color: #27aedf;
+}
+
+.saas_registered:hover {
+    cursor: pointer;
+    color: #27aedf;
+}
+
+.saas_registered:active {
+    cursor: pointer;
+    color: #27aedf;
+}
+
+.saas_forgot_password:hover {
+    cursor: pointer;
+    color: #27aedf;
+}
+
+.saas_forgot_password:active {
+    cursor: pointer;
+    color: #27aedf;
+}
+
+.saas_login_input {
+    height: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 14px;
+    background-color: #eee;
+    border: 0;
+    border-left: 1px solid #d9d9d9;
+}
+
+.saas_login_input:focus {
+    border-color: #d9d9d9;
+    box-shadow: none;
+}
+
+.saas_login_input:hover {
+    border-color: #d9d9d9;
+}
